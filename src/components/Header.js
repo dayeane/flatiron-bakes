@@ -1,6 +1,9 @@
 function Header(props) {
     return (
-        <div>Header</div>
+        <div>
+            <h1>{props.bakeryName}</h1>
+            <h3>{props.slogan}</h3>
+        </div>
     );
 }
 
